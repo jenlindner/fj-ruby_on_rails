@@ -53,3 +53,4 @@ Finally we'll show how to deploy to an EC2 instance using Capistrano. (We should
 Links to further reading
 ------------------------
 
+[Ruby on Rails Tutorial](http://www.railstutorial.org/book)
