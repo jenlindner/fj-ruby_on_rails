@@ -10,3 +10,15 @@ It's kind of a funny name, but it refers to a toolset for quickly building web a
 Some examples
 -------------
 
+
+What will be covered today
+--------------------------
+
+###Some prereqs 
+ 
++  Git
+
+
+Links to further reading
+------------------------
+
