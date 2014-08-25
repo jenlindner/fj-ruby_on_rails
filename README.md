@@ -18,7 +18,7 @@ What will be covered today
  
 +  Git
 +  Text Editor (Sublime?)
-+  Nice cup of Coffee
++  Nice cup of coffee
 
 Make an App
 -----------
