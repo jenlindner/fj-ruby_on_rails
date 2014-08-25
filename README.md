@@ -17,6 +17,17 @@ What will be covered today
 ###Some prereqs 
  
 +  Git
++  Text Editor (Sublime?)
+ 
+
+Make an App
+-----------
+
++ Rake, Bundler
++ Scaffold
++ MVC
++ Testing
++ Deploy
 
 
 Links to further reading
