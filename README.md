@@ -61,7 +61,7 @@ You get to a natural stopping point with your code and you want to commit it to 
 <tbody>
 <tr>
 <td>app/</td>
-<td>Contains the controllers, models, views, helpers, mailers and assets for your application. You'll focus on this folder for the remainder of this guide.</td>
+<td>Contains the controllers, models, views, helpers, mailers and assets for your application.</td>
 </tr>
 <tr>
 <td>bin/</td>
@@ -69,7 +69,7 @@ You get to a natural stopping point with your code and you want to commit it to 
 </tr>
 <tr>
 <td>config/</td>
-<td>Configure your application's routes, database, and more. This is covered in more detail in <a href="configuring.html">Configuring Rails Applications</a>.</td>
+<td>Configure your application's routes, database, and more.</td>
 </tr>
 <tr>
 <td>config.ru</td>
@@ -105,7 +105,7 @@ You get to a natural stopping point with your code and you want to commit it to 
 </tr>
 <tr>
 <td>test/</td>
-<td>Unit tests, fixtures, and other test apparatus. These are covered in <a href="testing.html">Testing Rails Applications</a>.</td>
+<td>Unit tests, fixtures, and other test apparatus.</td>
 </tr>
 <tr>
 <td>tmp/</td>
