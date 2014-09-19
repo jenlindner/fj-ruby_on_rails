@@ -1,0 +1,14 @@
+1. Security
+
+session = {}
+
+session[:user_id] = "innocent_bystander"
+
+puts 'hello jen'
+puts session
+
+#write method to try to hijack a session
+
+csrf = "Z%F%^&%^CTYFTR%^$%X^TRDFGDE%^E"
+
+#write method that won't return success unless passed this
