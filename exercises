@@ -65,6 +65,8 @@ csrf = "Z%F%^&%^CTYFTR%^$%X^TRDFGDE%^E"
 
 8. Optimization
 
+N+1 queries and eager loading with Rails
+
 9. Deploy
 A method that simulates Capistrano, uses cap_deploy: target. exercise: to have something work in 
 stage and break in production, and need people to fix their environment settings - like the wrong 
