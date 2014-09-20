@@ -12,3 +12,8 @@ puts session
 csrf = "Z%F%^&%^CTYFTR%^$%X^TRDFGDE%^E"
 
 #write method that won't return success unless passed this
+
+2. Bundle
+
+a hash that contains sets of gems; a bundle method that will choke on incompatible versions, requires updating. can the gems change anything visible in whatevethe demo app is?
+
