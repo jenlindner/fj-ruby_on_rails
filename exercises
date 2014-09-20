@@ -1,4 +1,6 @@
 1. Tests -- could start with this. it will be the method we're using in all the exercises. 
+Give example of BDD, have a test that won't work until there's a method they have 
+to write that makes it work. Something relevant to user experience.
 
 2. Gems and Bundle
 
