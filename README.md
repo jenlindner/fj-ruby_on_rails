@@ -122,6 +122,8 @@ Rails is secure by default, but we need to be vigilant when making an app. We'll
 
 + Testing 
 
+"BDD is a second-generation, outside-in, pull-based, multiple-stakeholder, multiple-scale, high-automation, agile methodology. It describes a cycle of interactions with well-defined outputs, resulting in the delivery of working, tested software that matters."
+
 + Deploy
 
 Finally we'll show how to deploy to an EC2 instance using Capistrano. (We should probably create a custom AMI so folks don't have to start from scratch).
