@@ -144,6 +144,8 @@ Rails is secure by default, but we need to be vigilant when making an app. We'll
 
 Finally we'll show how to deploy to an EC2 instance using Capistrano. (We should probably create a custom AMI so folks don't have to start from scratch).
 
+Capistrano allows you to copy code from your source control repository (SVN or Git) to your server via SSH, and perform pre and post-deploy functions like restarting a webserver, busting cache, renaming files, running database migrations and so on. With Capistrano it’s also possible to deploy to many machines at once.
+
 
 Links to further reading
 ------------------------
