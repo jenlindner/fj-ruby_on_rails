@@ -4,7 +4,20 @@ Intro - enough ruby to do the exercises with: variables, methods, puts, hashes.
 
 1. Tests -- could start with this. it will be the method we're using in all the exercises. 
 Give example of BDD, have a test that won't work until there's a method they have 
-to write that makes it work. Something relevant to user experience.
+to write that makes it work. Something relevant to user experience. 
+
+# As a citizen
+# I want to be informed about what affects me
+# So I read about what is happening in the world
+
+# Given we need to cross the bridges in our city
+# When one collapses
+# Then I need to know all about it, including if anyone I care about was injured
+
+# code - 5 W's are present or test fails
+# code - page needs to update with new info or test fails
+# code - context provided - failing civil grade on the bridge - or test fails
+
 
 2. Gems and Bundle
 
