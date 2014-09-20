@@ -18,7 +18,7 @@ What is a framework?
 
 Structure and tools
 
-Like a factory, with conveyor belts and welding torches exactly where you expect them to be. You don't want a welding torch to take you by surprise, but if you need it, you need it. A cool bath is not going to substitute. Or surgery, with the surgeon saying clamp and getting a clamp exactly when he needs it. The framework is all of the expertise that surrounds her or him at that moment: anathesiologists, nurses, heart monitors.
+Like a factory, with conveyor belts and welding torches exactly where you expect them to be. You don't want a welding torch to take you by surprise, but if you need it, you need it. A cool bath is not going to substitute. Or surgery, with the surgeon saying clamp and getting a clamp exactly when he needs it. The framework is all of the expertise that surrounds that surgeon at that moment: anathesiologists, nurses, heart monitors.
 
 + Rake, Bundler
 
