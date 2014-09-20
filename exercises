@@ -43,10 +43,11 @@ regexes that represent controller actions maybe, and converting variables into t
 
 a method that migrates up a table, adds column, adds an association. methods that return
 properties showing the new column and association. Or two, a migrate up and a migrate down, showing you
-how your database eveolves.
+how your database evolves.
 
 6. MVC  
-Change the db and reflect the change. One action to set, another to read.
+Change the db and reflect the change. One action to set, another to read. Use layouts and partials 
+in your view, return json (very useful for data visualizations, for example)
 
 7. Security
 
