@@ -27,7 +27,13 @@ requires updating. Actually it would make sense to have a gem conflict where you
 update your hash and freeze the version numbers to make it work. can the gems change anything 
 visible in whatevethe demo app is?
 
-3. Rake and scaffold
+3. Rails, Rake and scaffold
+
+if they have rails installed, test some commands. rails new, rails serve, rake db:create, scaffold. 
+
+if not do exercises that simulate these things.
+
+
 
 4. Rails
 
