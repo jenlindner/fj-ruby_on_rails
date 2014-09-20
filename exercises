@@ -1,6 +1,7 @@
 Intro - enough ruby to do the exercises with: variables, methods, puts, hashes.
 
-
+Maybe color-code these, for things that manage your app like rake, your app code, 
+your config code, and your test code.
 
 1. Tests -- could start with this. it will be the method we're using in all the exercises. 
 Give example of BDD, have a test that won't work until there's a method they have 
