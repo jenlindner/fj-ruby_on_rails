@@ -1,4 +1,24 @@
-1. Security
+1. Tests -- could start with this. it will be the method we're using in all the exercises. 
+
+2. Gems and Bundle
+
+a hash that contains sets of gems; a bundle method that will choke on incompatible versions, 
+requires updating. can the gems change anything visible in whatevethe demo app is?
+
+3. Rake and scaffold
+
+4. Rails
+
+regexes that represent controller actions maybe, and converting variables into tags 
+
+5. ORM
+
+a method that migrates up a table, adds column, adds an association. methods that return
+properties showing the new column and association.
+
+6. MVC
+
+7. Security
 
 session = {}
 
@@ -13,7 +33,7 @@ csrf = "Z%F%^&%^CTYFTR%^$%X^TRDFGDE%^E"
 
 #write method that won't return success unless passed this
 
-2. Bundle
+8. Optimization
 
-a hash that contains sets of gems; a bundle method that will choke on incompatible versions, requires updating. can the gems change anything visible in whatevethe demo app is?
+
 
