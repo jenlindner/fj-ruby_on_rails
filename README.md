@@ -113,6 +113,7 @@ We'll begin this section by scaffolding a model following the fields in the sour
 Rails gives you a lot of really great defaults, but we wont need a bunch of them. We'll start editing the CSS, JavaScipts and ERB Templates, so we can talk a bit about the asset pipeline. We'll also edit the routes file to lock down the app and remove unnecessary endpoints. We'll end up this section with a fully functioning election dashboard
 
 + Optimization
++ Eager loading in controllers and models
  
 class Customer < ActiveRecord::Base
   has_many :orders, -> { includes(:items) }
@@ -136,6 +137,8 @@ Rails is secure by default, but we need to be vigilant when making an app. We'll
 + Testing 
 
 "BDD is a second-generation, outside-in, pull-based, multiple-stakeholder, multiple-scale, high-automation, agile methodology. It describes a cycle of interactions with well-defined outputs, resulting in the delivery of working, tested software that matters."
+
+--Dan North, who created the first ever BDD frameworks, including one in Ruby called RBehave[7] which was later integrated into the RSpec project.
 
 + Deploy
 
