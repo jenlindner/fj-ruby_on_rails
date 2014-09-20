@@ -9,7 +9,9 @@ to write that makes it work. Something relevant to user experience.
 2. Gems and Bundle
 
 a hash that contains sets of gems; a bundle method that will choke on incompatible versions, 
-requires updating. can the gems change anything visible in whatevethe demo app is?
+requires updating. Actually it would make sense to have a gem conflict where you have to 
+update your hash and freeze the version numbers to make it work. can the gems change anything 
+visible in whatevethe demo app is?
 
 3. Rake and scaffold
 
@@ -20,9 +22,11 @@ regexes that represent controller actions maybe, and converting variables into t
 5. ORM
 
 a method that migrates up a table, adds column, adds an association. methods that return
-properties showing the new column and association.
+properties showing the new column and association. Or two, a migrate up and a migrate down, showing you
+how your database eveolves.
 
-6. MVC
+6. MVC  
+Change the db and reflect the change. One action to set, another to read.
 
 7. Security
 
@@ -41,5 +45,7 @@ csrf = "Z%F%^&%^CTYFTR%^$%X^TRDFGDE%^E"
 
 8. Optimization
 
-
+9. Deploy
+And for the deploy one to have something work in stage and break in production, and 
+need people to fix their environment settings - like the wrong web service - not their app code.
 
