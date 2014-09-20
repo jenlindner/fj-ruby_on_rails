@@ -114,7 +114,20 @@ Rails gives you a lot of really great defaults, but we wont need a bunch of them
 
 + Optimization
  
-Rails can get pretty slow really quickly. In this section we'll walk back through out app and clean up our association calls and generally speed up database queries and view rendering. We'll look at how to profile rails actions as well. Also Rack::Cache.
+class Customer < ActiveRecord::Base
+  has_many :orders, -> { includes(:items) }
+end
+
+class Order < ActiveRecord::Base
+  has_many :items
+end
+
+class Items < ActiveRecord::Base
+  belongs_to :order
+  belongs_to :product
+end
+
+We'll look at how to profile rails actions as well. Also Rack::Cache.
 
 + Security and User Input
  
