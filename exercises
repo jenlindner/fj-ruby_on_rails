@@ -98,9 +98,22 @@ visible in whatevethe demo app is?
 
 3. Rails, Rake and scaffold
 
+
+def rails(command)
+  if command == "new"
+    puts "directory structure created"
+  elseif command == "generate model"
+    puts "model created"
+  elseif command == "serve"
+    puts "model created"
+  end
+end
+
 if they have rails installed, test some commands. rails new, rails serve, rake db:create, scaffold. 
 
 if not do exercises that simulate these things.
+
+rails generate model recipe ingredients: string steps: text
 
 
 
