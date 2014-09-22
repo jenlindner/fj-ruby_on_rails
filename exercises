@@ -1,5 +1,44 @@
 Intro - enough ruby to do the exercises with: variables, methods, puts, hashes.
 
+++ How to assign a variable ++
+
+foo = 'bar'
+
+foo
+'bar'
+
+++ ++ ++ ++ ++ ++ ++ ++
+
+
+++ How to write a method ++
+
+def hello
+  puts 'hello there'
+end
+
+hello
+'hello there'
+
+++ ++ ++ ++ ++ ++ ++ ++
+
+++ How to create an array ++
+
+many_foo = ['foo1', 'foo2', 'foo3']
+
+many_foo[0]
+"foo1"
+
+++ ++ ++ ++ ++ ++ ++ ++
+
+++ How to create a hash ++
+
+many_foo_by_bar = {foo: 'bar'}
+
+any_foo_by_bar[:foo]
+"bar" 
+++ ++ ++ ++ ++ ++ ++ ++
+
+
 Maybe color-code these, for things that manage your app like rake, your app code, 
 your config code, and your test code.
 
