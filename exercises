@@ -1,5 +1,7 @@
 Intro - enough ruby to do the exercises with: variables, methods, puts, hashes.
 
+Are classes necessary for this??
+
 ++ How to assign a variable ++
 
 foo = 'bar'
@@ -20,6 +22,34 @@ hello
 'hello there'
 
 ++ ++ ++ ++ ++ ++ ++ ++
+
+
+++ How to write a method that takes a parameter++
+
+def hello(whom)
+  puts "hello there #{whom}"
+end
+
+hello('Jennifer')
+'hello there Jennifer'
+
+++ ++ ++ ++ ++ ++ ++ ++
+
+
+++ How to write a method that takes a parameter but has a default too ++
+
+def hello(whom="Jennifer")
+  puts "hello there #{whom}"
+end
+
+hello('Esmerelda')
+'hello there Esmerelda'
+
+hello
+'hello there Jennifer'
+
+++ ++ ++ ++ ++ ++ ++ ++
+
 
 ++ How to create an array ++
 
