@@ -160,33 +160,6 @@ Capistrano is great at making everything you need to do when you create or updat
 
 
 
-# Get bundle install --deployment for free w/ nice symlink behavior
-require "bundler/capistrano"
-load "config/recipes/base"
-set :stages, %w[staging workers production]
-set :default_stage, 'production'
-require "capistrano/ext/multistage"
-# Application name - to conventionalize directory/project naming
-set :application, "my_application"
-# Same as above
-set :user, "app"
-# Fetch copies of repo instead of cloning on each deploy
-set :deploy_via, :remote_cache
-# Don't use sudo as default
-set :use_sudo, false
-
-set :scm, "git"
-set :repository, "git@github.com:#{user}/#{application}.git"
-set :branch, "master"
-
-# Password prompt instead of cryptic error on remote sudo commands
-default_run_options[:pty] = true
-# No need for a repo checkout deploy key on your deployment server
-ssh_options[:forward_agent] = true
-
-after "deploy", "deploy:cleanup" # keep only the last 5 releases
-
-
 [Ruby on Rails Tutorial](http://www.railstutorial.org/book)
 
 
